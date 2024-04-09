@@ -1,0 +1,80 @@
+
+.header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity:0.5; /* 文字も半透明 */
+
+    }
+.header-inner {
+    display: flex;
+    align-items: center;
+    }
+.header-title a{
+color: #333;
+font-size: 24px;
+font-weight: bold;
+}
+
+.header-nav {
+margin-left: auto;
+}
+
+.header-nav-list {
+display: flex;
+}
+
+.header-nav-item:not(:first-child){
+ margin-left: 40px;
+}
+
+.header-nav-item-link {
+display: block;
+color: #333;
+height: 80px;
+line-height: 80px;
+}
+
+
+main {
+padding-top: 80px;
+}
+
+.inner {
+max-width: 1000px;
+margin: 0 auto;
+padding: 0 40px;
+box-sizing: content-box;
+}
+
+.second{
+    background-color: azure;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between; /* 要素間の等間隔配置 */
+}
+
+.third{
+    background-color: aliceblue;
+}
+
+.fourth{
+    background-color: bisque;
+    font-size: 18px;
+}
+
+.fifth{
+    background-color: rgb(100, 166, 143);
+}
+
+.title1{
+    font-size: 20%;
+}
+
+.title2{
+    font-size: 20px;
+}
